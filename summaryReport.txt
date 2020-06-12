@@ -8,7 +8,7 @@ Tps = 888.2844699561148
 Avg responce time = 11.174343464702943
 Max responce time = 286.0
 
-The criteria vector obtained by the gradient descent method:
+The criteria vector obtained by the gradient descent method (for quick results set a smaller condition and a larger Epsilon. this way we get the direction where to shift the properties):
 Cpu usage % = 3.3720176637217785
 Heap size = 39.27599310610512
 Tps = 888.2844708915044
