@@ -30,7 +30,7 @@ public class ConfigurationSetting implements RunnableInterface{
                     configurationTest.setWorkThreadSleepTimeMs(configurationTest.getWorkThreadSleepTime() - 1);
                 }
                 // only if you need to reduce the heap size
-                if (oldVector[4] < newVector[4]) {
+                if (oldVector[4] > newVector[4]) { // changed
                     if (configurationTest.getXmx() > 256) {
                         configurationTest.setXmx(configurationTest.getXmx() - 128);
                     }
